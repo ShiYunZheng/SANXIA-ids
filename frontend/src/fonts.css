@@ -1,0 +1,3 @@
+/* Typography: HarmonyOS Sans for Chinese UI, Inter for Latin and numerals. */
+html,body,#root,button,input,textarea,select{font-family:"HarmonyOS Sans SC","HarmonyOS Sans",Inter,"Microsoft YaHei",sans-serif}
+.kpi strong,.clock,.status-strip,.eyebrow,.side-version,.sev,.pagination,.donut-center strong,.donut-center em{font-family:Inter,"HarmonyOS Sans SC","Microsoft YaHei",sans-serif}

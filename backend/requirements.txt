@@ -1,0 +1,13 @@
+Flask==3.0.0
+Flask-Cors==4.0.0
+Flask-PyMongo==3.0.1
+pymongo==4.18.0
+joblib==1.4.2
+numpy==2.2.0
+pandas==2.2.3
+PyJWT==2.8.0
+scapy==2.7.0
+scikit-learn==1.6.0
+tensorflow==2.21.0
+torch>=2.5.1
+pytest==8.3.5

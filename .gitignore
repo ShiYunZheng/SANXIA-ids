@@ -1,0 +1,36 @@
+# Frontend dependencies and generated output
+node_modules/
+.pnpm-store/
+.npm-cache/
+dist/
+.build-check/
+.vite/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime data and local configuration
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.temp
+backend/uploads/
+backend/backups/
+frontend/screenshot-*.png
+
+# IDE and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep only explicitly selected standalone algorithm reference files.
+standalone-runtime/

@@ -1,0 +1,21 @@
+{
+    "model_name": "LaGAM-SatPU IDS",
+    "input_dim": 120,
+    "input_representation": "first 120 bytes of IPv4 packet, normalized by /255",
+    "input_shape": [
+        "batch_size",
+        120
+    ],
+    "model_internal_label_convention": {
+        "normal": 1,
+        "attack": 0
+    },
+    "deployment_output_convention": {
+        "pred_attack_0": "Normal",
+        "pred_attack_1": "Attack"
+    },
+    "attack_score_definition": "1 - P(Normal)",
+    "validation_attack_threshold": 0.6073266267776489,
+    "equivalent_normal_threshold": 0.3926733732223511,
+    "dtype": "float32"
+}
